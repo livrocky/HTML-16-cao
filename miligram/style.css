@@ -1,0 +1,11 @@
+body {
+  background-image: url(https://wallpaperaccess.com/full/1849263.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
+}
+
+.red {
+  background-color: red;
+  border-color: red;
+}
