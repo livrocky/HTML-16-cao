@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <div class="container is-fullhd">
+        <div class="$container-max-width">
             <div class="notification is-primary">
                 <h1>Property list</h1>
                 <p>See all the houses you want!</p>
@@ -19,13 +19,115 @@
         </div>
     </header>
 
-    <main>
-        <p class="mt-5 ml-5">filter:</p>
-        <a class="button is-primary is-outlined is-small mt-3 mb-5 ml-5" href="#">Vilnius</a>
-        <a class="button is-primary is-outlined is-small mt-3 mb-5" href="#">Kaunas</a>
-        <a class="button is-primary is-outlined is-small mt-3 mb-5" href="#">Klaipėda</a>
+
+    <p class="mt-5 ml-5">Filter:</p>
+
+
+
+    <div class="is-flex is-justify-content-space-between is-align-items-center">
+        <div>
+            <a class="button is-primary is-outlined is-small mt-3 mb-5 ml-5" href="#">Vilnius</a>
+            <a class="button is-primary is-outlined is-small mt-3 mb-5" href="#">Kaunas</a>
+            <a class="button is-primary is-outlined is-small mt-3 mb-5" href="#">Klaipėda</a>
+        </div>
+        <div>
+            <button class="button is-primary is-small  mr-5">Add Property+</button>
+        </div>
+    </div>
+
+
+    <!-- CARDS -->
+
+
+
+    <main class="is-flex">
+        <div class="box ml-5 mr-5">
+            <div class="card-image">
+                <figure class="is-fullwidth">
+                    <img src="https://aruodas-img.dgn.lt/object_66_101783150/nuotrauka.jpg" alt="Placeholder image">
+                </figure>
+            </div>
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-content mb-4">
+                        <p class="title is-4">$30,000</p>
+                        <p class="subtitle is-6">Vilnius</p>
+                    </div>
+                </div>
+
+                <div class="content">
+                    Gražus namas prie upės. Penki kambariai ir t.t.
+                </div>
+            </div>
+        </div>
+        <div class="box mr-5">
+            <div class="card-image">
+                <figure class="is-fullwidth">
+                    <img src="https://aruodas-img.dgn.lt/object_66_101944822/nuotrauka.jpg" alt="Placeholder image">
+                </figure>
+            </div>
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-content mb-4">
+                        <p class="title is-4">$55,000</p>
+                        <p class="subtitle is-6">Vilnius</p>
+                    </div>
+                </div>
+
+                <div class="content">
+                    Lorem ipsum dolor sit amet consectetur <br>adipisicing elit, eum. Mollitia, hic?
+                </div>
+            </div>
+        </div>
+        <div class="box mb-5 mr-5">
+            <div class="card-image">
+                <figure class="is-fullwidth">
+                    <img src="https://aruodas-img.dgn.lt/object_66_102149640/vilnius-zemieji-paneriai-titnago-g.jpg"
+                        alt="Placeholder image">
+                </figure>
+            </div>
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-content mb-4">
+                        <p class="title is-4">$55,000</p>
+                        <p class="subtitle is-6">Vilnius</p>
+                    </div>
+                </div>
+
+                <div class="content">
+                    Butas kaip butas...sėdi ir gyveni
+                </div>
+            </div>
+        </div>
+
+
+        <!-- PASITESTUOTI -->
+
+        <!-- <div class="card">
+            <div class="card-image mr-5 mt-5">
+                <figure class="image is-3by2">
+                    <img src="https://aruodas-img.dgn.lt/object_66_101950064/kaunas-zemieji-sanciai-drobes-g-biuro.jpg"
+                        alt="Placeholder image">
+                </figure>
+            </div>
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-left">
+                    </div>
+                    <div class="media-content">
+                        <p class="title is-4">$420,000</p>
+                        <p class="subtitle is-6">Palanga</p>
+                    </div>
+                </div>
+
+                <div class="content">
+                    Puikus butukas viskas gerai, lubos nebėga patiks ir močiutei.
+                </div>
+            </div>
+        </div> -->
 
     </main>
+
 </body>
 
 </html>
